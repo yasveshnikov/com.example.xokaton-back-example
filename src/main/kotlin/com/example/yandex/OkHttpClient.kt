@@ -10,7 +10,7 @@ import java.util.concurrent.TimeUnit.SECONDS
 
 object OkHttpClient {
 
-    private const val baseUrl = "https://api.rasp.yandex.net/v3.0/"
+    private const val baseUrl = "https://api.rasp.yandex.net/"
 
     private fun getDispatcher(): Dispatcher {
         val dispatcher = Dispatcher()
