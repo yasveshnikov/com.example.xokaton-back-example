@@ -1,0 +1,1 @@
+rootProject.name = "com.example.xokaton-back-example"
