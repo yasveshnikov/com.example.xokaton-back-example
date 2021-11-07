@@ -6,7 +6,7 @@ import retrofit2.http.GET
 import retrofit2.http.Query
 
 interface YandexApi {
-    @GET("/nearest_stations")
+    @GET("/v3.0/nearest_stations")
     fun getNearStations(
         @Query("apikey") authKey: String,
         @Query("lat") lat: Float,
